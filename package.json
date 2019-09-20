@@ -1,0 +1,36 @@
+{
+  "name": "webgl-seed",
+  "version": "1.0.0",
+  "description": "A seed repo for getting started with WebGL applications.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm i & npm run build",
+    "build": "webpack",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaingalvan/webgl-seed.git"
+  },
+  "keywords": [
+    "webgl",
+    "example",
+    "seed",
+    "repo"
+  ],
+  "author": "Alain Galvan",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/alaingalvan/webgl-seed/issues"
+  },
+  "homepage": "https://github.com/alaingalvan/webgl-seed#readme",
+  "dependencies": {
+    "gl-matrix": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/gl-matrix": "^2.4.5",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2"
+  }
+}
