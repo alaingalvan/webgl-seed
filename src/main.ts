@@ -1,9 +1,6 @@
 import Renderer from './renderer';
 
-const node = document.getElementById('webgl');
-
-// 🏎️ Create rendering engine
-let renderer = new Renderer(node);
-
-// 🏁 Start your engine
+const canvas = document.getElementById('gfx') as HTMLCanvasElement;
+canvas.width = canvas.height = 640;
+const renderer = new Renderer(canvas);
 renderer.start();

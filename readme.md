@@ -3,8 +3,14 @@
 # WebGL Seed
 
 [![License][license-img]][license-url]
+[![Dependency Status][david-img]][david-url]
+[![devDependency Status][david-dev-img]][david-dev-url]
 
-A WebGL repo you can use to get started with your own renderer.
+A simple hello triangle example you could use to as a basis when starting WebGL.
+
+- [🔳 Codepen Example](https://codepen.io/alaingalvan/pen/OMEqKa)
+
+- [💬 Blog Post](https://alain.xyz/blog/raw-webgl)
 
 ## Setup
 
@@ -16,7 +22,7 @@ First install:
 
 - A Text Editor such as [Visual Studio Code](https://code.visualstudio.com/).
 
-Then type the following in your [terminal](https://hyper.is/).
+Then type the following in any terminal your such as [VS Code's Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 ```bash
 # 🐑 Clone the repo
@@ -48,5 +54,17 @@ As your project becomes more complex, you'll want to separate files and organize
 └─ 📃readme.md        # 📖 Read Me!
 ```
 
+Some key dependencies are:
+
+- [gl-matrix](http://glmatrix.net/) - WebGL's best linear algebra library, perfect for people used to linear algebra libraries like [GLM](https://glm.g-truc.net/0.9.9/index.html) or the built in GLSL data structures.
+
+- [Webpack](https://webpack.js.org/) - Compiles our TypeScript files and creates binaries for us to use.
+
+- [TypeScript](https://github.com/microsoft/typescript) - JavaScript with types, makes it significantly easier to program web apps with instant autocomplete and type checking.
+
 [license-img]: https://img.shields.io/:license-unlicense-blue.svg?style=flat-square
 [license-url]: https://unlicense.org/
+[david-url]: https://david-dm.org/alaingalvan/webgl-seed
+[david-img]: https://david-dm.org/alaingalvan/webgl-seed/status.svg?style=flat-square
+[david-dev-url]: https://david-dm.org/alaingalvan/webgl-seed#info=devDependencies
+[david-dev-img]: https://david-dm.org/alaingalvan/webgl-seed/dev-status.svg?style=flat-square
