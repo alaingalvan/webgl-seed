@@ -3,6 +3,7 @@
 # WebGL Seed
 
 [![License][license-img]][license-url]
+[![Unit Tests][travis-img]][travis-url]
 [![Dependency Status][david-img]][david-url]
 [![devDependency Status][david-dev-img]][david-dev-url]
 
@@ -68,3 +69,5 @@ Some key dependencies are:
 [david-img]: https://david-dm.org/alaingalvan/webgl-seed/status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/alaingalvan/webgl-seed#info=devDependencies
 [david-dev-img]: https://david-dm.org/alaingalvan/webgl-seed/dev-status.svg?style=flat-square
+[travis-img]: https://img.shields.io/travis/alaingalvan/webgpu-seed.svg?style=flat-square
+[travis-url]:https://travis-ci.org/alaingalvan/webgpu-seed
