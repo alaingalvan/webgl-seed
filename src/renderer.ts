@@ -1,5 +1,3 @@
-import * as glm from 'gl-matrix';
-
 // 📈 Position Vertex Buffer Data
 const positions = new Float32Array([
     1.0, -1.0, 0.0,
@@ -16,6 +14,7 @@ const colors = new Float32Array([
 
 // 🗄️ Index Buffer Data
 const indices = new Uint16Array([ 0, 1, 2 ]);
+
 
 // 🕸️ Vertex Shader Source
 const vertShaderCode = `
@@ -89,7 +88,7 @@ export default class Renderer {
         // ⚫ Set the default clear color when calling `gl.clear`
         gl.clearColor(0.0, 0.0, 0.0, 0.0);
         // 🎭 Write to all channels during a clear
-        gl.colorMask(true, true, true, true)
+        gl.colorMask(true, true, true, true);
         // 👓 Test if when something is drawn, it's in front of what was drawn previously
         gl.enable(gl.DEPTH_TEST);
         // ≤ Use this function to test depth values
@@ -162,7 +161,7 @@ export default class Renderer {
         gl.viewport(0, 0, this.canvas.width, this.canvas.height);
         gl.scissor(0, 0, this.canvas.width, this.canvas.height);
 
-        // Bind Vertex Layout
+        // 🔣 Bind Vertex Layout
         let setVertexBuffer = (buf: WebGLBuffer, name: string) => {
             gl.bindBuffer(gl.ARRAY_BUFFER, buf);
             let loc = gl.getAttribLocation(this.program, name);
