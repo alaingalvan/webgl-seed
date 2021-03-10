@@ -31,7 +31,6 @@
         "gl-matrix": "^3.3.0"
     },
     "devDependencies": {
-        "@types/gl-matrix": "^3.2.x",
         "@types/node": "^14.14.x",
         "clean-webpack-plugin": "^3.0.x",
         "cross-env": "^7.0.x",
