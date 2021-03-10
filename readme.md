@@ -69,5 +69,5 @@ Some key dependencies are:
 [david-img]: https://david-dm.org/alaingalvan/webgl-seed/status.svg?style=flat-square
 [david-dev-url]: https://david-dm.org/alaingalvan/webgl-seed#info=devDependencies
 [david-dev-img]: https://david-dm.org/alaingalvan/webgl-seed/dev-status.svg?style=flat-square
-[travis-img]: https://img.shields.io/travis/alaingalvan/webgpu-seed.svg?style=flat-square
-[travis-url]:https://travis-ci.org/alaingalvan/webgpu-seed
+[travis-img]: https://img.shields.io/travis/com/alaingalvan/webgl-seed.svg?style=flat-square
+[travis-url]:https://www.travis-ci.com/github/alaingalvan/webgl-seed
